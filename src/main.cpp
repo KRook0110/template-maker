@@ -51,7 +51,8 @@ void setup_cli_options(int argc, const char** argv,
     // TODO: Decide should I move this shit out
 
     app.add_option("template-name,-t,--template-name", options.template_name,
-                   "which template you want to use");
+                   "which template you want to use")
+    ->required();
 
     app.add_option("-s,--source", options.template_path,
                    "defines the source of the templates")
