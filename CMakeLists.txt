@@ -10,6 +10,10 @@ set(CMAKE_EXPORT_COMPILE_COMMANDS ON)
 
 add_executable(TemplateMaker
     src/main.cpp
+    src/core/TemplateMaker.cpp
+    src/utils/CmdUtil.cpp
+    src/utils/PathUtil.cpp
+    src/utils/StringUtil.cpp
 )
 target_include_directories(TemplateMaker PUBLIC ${CMAKE_CURRENT_SOURCE_DIR}/include)
 
