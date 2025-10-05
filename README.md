@@ -13,11 +13,15 @@ Make sure you have these installed:
 
 ### Steps
 1. Clone this repository and go into the build directory
-2. Run
+2. Build the Makefile with CMake. Run:
 ```bash
 cmake ..
 ```
-3. then copy the executable to your local bin folder:
+3. Then Make the Makefile. Run:
+```bash
+make
+```
+4. Then copy the executable to your local bin folder:
 ```bash
 cp TemplateMaker ~/.local/bin/TemplateMaker
 ```
