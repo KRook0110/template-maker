@@ -20,7 +20,7 @@ void copy_files(fs::path source, fs::path destination) {
 
             continue;
         }
-        std::cout << "Successfully coppied " << entry_path << std::endl;
+        std::cout << "Successfully copied " << entry_path << std::endl;
     }
 }
 
