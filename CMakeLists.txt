@@ -15,6 +15,7 @@ add_executable(TemplateMaker
     src/utils/PathUtil.cpp
     src/utils/StringUtil.cpp
 )
+
 target_include_directories(TemplateMaker PUBLIC ${CMAKE_CURRENT_SOURCE_DIR}/include)
 
 list(APPEND CMAKE_PREFIX_PATH "/opt/homebrew/opt/cli11")
