@@ -71,5 +71,6 @@ TemplateMaker --fzf
 ```
 
 # TODO
--[X] make a fzf option
--[ ]
+- [X] make a fzf option
+- [ ] make a config file parser
+
